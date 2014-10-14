@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html ng-app="myApp">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width">
+        <script src="bower_components/angular/angular.js" type="text/javascript"></script>
+        <script src="bower_components/d3/d3.js" type="text/javascript"></script>
+        <script src="bower_components/gant-planning/gant-planning.js" type="text/javascript"></script>
+        <link rel="stylesheet" href="bower_components/gant-planning/style.css"/>
+        <script src="index.js" type="text/javascript"></script>
+        <title></title>
+    </head>
+    <body>
+        <svg gant-planning></svg>
+    <script type="text/javascript" charset="utf-8">
+        angular.module("myApp",["gantPlanning"])
+    </script>
+    </body>
+</html>
