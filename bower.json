@@ -1,0 +1,24 @@
+{
+  "name": "angular-gant-planning",
+  "version": "0.0.1",
+  "authors": [
+    "Edgar Hipp <hipp.edg@gmail.com>"
+  ],
+  "description": "Gant Planning for Angular",
+  "main": "index.js",
+  "keywords": [
+    "gant",
+    "planning"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "~1.3.0"
+  }
+}
